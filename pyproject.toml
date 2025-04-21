@@ -1,0 +1,13 @@
+[project]
+name = "mcpcrashcourse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "langchain-groq>=0.3.2",
+    "mcp-use>=1.2.7",
+    "mcp[cli]>=1.6.0",
+    "nest-asyncio>=1.6.0",
+]
