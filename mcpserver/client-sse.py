@@ -29,7 +29,7 @@ async def main():
             for tool in tools_result.tools:
                 print(f"  - {tool.name}: {tool.description}")
 
-            # Call our calculator tool
+            # Call our Weather tool
             result = await session.call_tool("get_alerts", arguments={"state":"CA"})
             print(f"The weather alerts are = {result.content[0].text}")
 
