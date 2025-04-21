@@ -75,4 +75,16 @@ uv run main.py
 ## 2.0 Agentic AI And GENERATIVE AI With MCP Bootcamp
 ![image](https://github.com/user-attachments/assets/06befa53-3da1-44e9-b556-336da2b90be1)
 
-https://www.krishnaik.in/liveclass/2.0%20Live%20Agentic%20AI%20And%20Generative%20AI%20Application%20With%20Cloud%20Bootcamp
+**[Enroll Now](https://www.krishnaik.in/liveclass/2.0%20Live%20Agentic%20AI%20And%20Generative%20AI%20Application%20With%20Cloud%20Bootcamp)** 
+
+Course Overview:
+
+Mentors: Sourangshu Paul, Mayank Aggarwal , Krish And Sunny
+
+Start Date:May 10th 2025
+
+Timing: 8am to 11am IST(Saturday And Sunday)
+
+Duration : 4-5 months
+
+This course is designed for AI developers, machine learning engineers, data scientists, and software engineers looking to build expertise in agentic AI, multi-agent systems, and AI-powered automation. Whether you are new to AI agents or have experience in NLP and GenAI, this course will equip you with the knowledge and hands-on skills required to develop, deploy, and manage AI agents at scale. By the end of the course, you will have a strong foundation in agentic AI frameworks, multi-agent collaboration, real-world automation, and end-to-end AI deployment, along with practical experience through real-world projects.
