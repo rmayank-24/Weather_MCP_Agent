@@ -1,14 +1,12 @@
 FROM python:3.11-slim
 
-WORKDIR /app
-
-# Install uv for faster package management
-RUN pip install uv
+WORKDIR /demo
 
 # Copy requirements file
 COPY requirements.txt .
 
 # Install dependencies using uv
+RUN pip install uv
 RUN uv venv
 RUN uv pip install -r requirements.txt
 
