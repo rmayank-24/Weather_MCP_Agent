@@ -73,4 +73,6 @@ uv run main.py
 - `pyproject.toml`: Project configuration and dependencies
 
 ## 2.0 Agentic AI And GENERATIVE AI With MCP Bootcamp
+![image](https://github.com/user-attachments/assets/06befa53-3da1-44e9-b556-336da2b90be1)
+
 https://www.krishnaik.in/liveclass/2.0%20Live%20Agentic%20AI%20And%20Generative%20AI%20Application%20With%20Cloud%20Bootcamp
