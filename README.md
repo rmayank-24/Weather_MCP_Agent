@@ -27,31 +27,31 @@ WeatherAI India
 The main dashboard provides a quick overview of the current weather conditions in a selected city.
 
 <div align="center">
-<img src="http://googleusercontent.com/file_content/0" alt="WeatherAI Dashboard" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013003.png" alt="WeatherAI Dashboard" width="90%"/>
 </div>
 
 2. AI Weather Assistant
 Engage with our AI assistant to get detailed weather forecasts and information in a conversational manner.
 
 <div align="center">
-<img src="http://googleusercontent.com/file_content/1" alt="AI Weather Assistant" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013045.png" alt="AI Weather Assistant" width="90%"/>
 </div>
 
 3. Weather Analytics
 Visualize and compare weather data across different cities with our analytics dashboard.
 
 <div align="center">
-<img src="http://googleusercontent.com/file_content/2" alt="Weather Analytics - Temperature" width="90%"/>
-<img src="http://googleusercontent.com/file_content/3" alt="Weather Analytics - Wind Speed" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013122.png" alt="Weather Analytics - Temperature" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013159.png" alt="Weather Analytics - Wind Speed" width="90%"/>
 </div>
 
 4. Multi-City Comparison
 Select multiple cities and compare their weather conditions side-by-side.
 
 <div align="center">
-<img src="http://googleusercontent.com/file_content/4" alt="Multi-City Comparison - Selection" width="90%"/>
-<img src="http://googleusercontent.com/file_content/5" alt="Multi-City Comparison - Wind Speed" width="90%"/>
-<img src="http://googleusercontent.com/file_content/6" alt="Multi-City Comparison - Side-by-Side" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013229.png" alt="Multi-City Comparison - Selection" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013251.png" alt="Multi-City Comparison - Wind Speed" width="90%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/Screenshot%202025-08-25%20013310.png" alt="Multi-City Comparison - Side-by-Side" width="90%"/>
 </div>
 
 🧠 The Architecture: Conversational Weather Intelligence
