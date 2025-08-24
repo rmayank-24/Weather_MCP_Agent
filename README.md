@@ -1,6 +1,5 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/banner.png" alt="WeatherAI Banner" width="80%"/>
-<h1 style="font-weight: bold; margin-top: 20px; font-size: 64px; text-shadow: 4px 4px 20px #007BFF;">
 WeatherAI India
 </h1>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=007BFF&width=600&lines=The+Future+of+Weather+Intelligence.;AI-Powered+Weather+Insights.;From+Data+to+Decisions+in+Minutes." alt="Typing SVG" /></a>
@@ -175,4 +174,5 @@ This is more than a project; it's a new paradigm for weather intelligence. If yo
 <img src="https://github-readme-stats.vercel.app/api?username=rmayank-24&theme=merko&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000" alt="My GitHub Stats"/>
 </a>
 </p>
+
 
