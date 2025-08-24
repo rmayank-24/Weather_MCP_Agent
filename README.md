@@ -23,13 +23,15 @@
 ### **🌦️ The System in Action**
 <div align="center">
   <p>A seamless, conversational interface for weather intelligence across India.</p>
-  <img src="images/screenshot1.png" alt="WeatherAI Dashboard" width="90%"/>
+  <img src="images/Screenshot 2025-08-25 013003.png" alt="WeatherAI Dashboard" width="90%"/>
 </div>
 
 ---
 
 ### **🧠 The Architecture: Conversational Weather Intelligence**
 WeatherAI India is engineered as a multi-layered, AI-native application. It employs a sophisticated pipeline that combines natural language understanding, real-time weather data processing, and intelligent response generation to deliver unparalleled weather insights.
+
+![Architecture Overview](images/Screenshot 2025-08-25 013045.png)
 
 <details>
 <summary><strong>🏛️ Click to Explore the Core Architectural Pillars</strong></summary>
@@ -47,6 +49,8 @@ WeatherAI India is engineered as a multi-layered, AI-native application. It empl
 
 ### **✨ Code Spotlight: The Anatomy of Intelligent Weather Processing**
 This is where WeatherAI transcends simple weather lookups. The system understands context, handles errors gracefully, and provides rich, formatted responses.
+
+![Code Execution](images/Screenshot 2025-08-25 013122.png)
 
 ```python
 # Source: india_streamlit_app.py (Illustrative Snippet)
@@ -113,4 +117,3 @@ This is more than a project; it's a new paradigm for weather intelligence. If yo
     <img src="https://github-readme-stats.vercel.app/api?username=rmayank-24&theme=merko&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000" alt="My GitHub Stats"/>
   </a>
 </p>
-
