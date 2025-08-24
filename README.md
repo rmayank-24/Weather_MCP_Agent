@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://fireworks.google.com/api/render/v1/images/fireworks/241a273b-48d6-4e1b-9f4c-1d7d08343f88/generated_1.jpeg" alt="WeatherAI Banner" width="100%"/>
+<img src="https://raw.githubusercontent.com/rmayank-24/Weather_MCP_Agent/main/images/banner.png" alt="WeatherAI Banner" width="100%"/>
 <h1 style="font-weight: bold; margin-top: 20px; font-size: 64px; text-shadow: 4px 4px 20px #007BFF;">
 WeatherAI India
 </h1>
@@ -175,3 +175,4 @@ This is more than a project; it's a new paradigm for weather intelligence. If yo
 <img src="https://github-readme-stats.vercel.app/api?username=rmayank-24&theme=merko&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&border_color=00000000" alt="My GitHub Stats"/>
 </a>
 </p>
+
