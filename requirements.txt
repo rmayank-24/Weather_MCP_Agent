@@ -1,0 +1,41 @@
+# Core Streamlit and web framework
+streamlit>=1.28.0
+streamlit-folium>=0.13.0
+
+# HTTP requests and API handling
+requests>=2.31.0
+httpx>=0.25.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization libraries
+plotly>=5.17.0
+folium>=0.14.0
+streamlit>=1.28.0
+streamlit-folium>=0.13.0
+pandas>=2.0.0
+folium>=0.14.0
+streamlit_folium
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# MCP (Model Context Protocol) for server functionality
+mcp[cli]>=1.6.0
+
+# Additional utilities
+schedule>=1.2.0
+psutil>=5.9.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+python-dotenv 

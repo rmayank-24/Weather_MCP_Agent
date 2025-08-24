@@ -1,53 +1,60 @@
-from typing import Any
-import httpx
-from mcp.server.fastmcp import FastMCP
 
+import os
+import httpx
+from dotenv import load_dotenv
+from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
 mcp = FastMCP(
     name="weather",
-    host="0.0.0.0",  # only used for SSE transport (localhost)
-    port=8000,  # only used for SSE transport (set this to any port)
+    host="0.0.0.0",
+    port=8000,
 )
 
-# Constants
-NWS_API_BASE = "https://api.weather.gov"
-USER_AGENT = "weather-app/1.0"
+# Load API key from .env
+load_dotenv()
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
+# List of popular Indian cities
+INDIAN_CITIES = [
+    "Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata", "Hyderabad", "Pune", "Ahmedabad", "Jaipur", "Lucknow",
+    "Chandigarh", "Bhopal", "Indore", "Patna", "Nagpur", "Kanpur", "Thiruvananthapuram", "Coimbatore", "Vadodara", "Surat"
+]
 
-async def make_nws_request(url: str) -> dict[str, Any] | None:
-    """Make a request to the NWS API with proper error handling."""
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "application/geo+json"
-    }
+async def fetch_weather(city: str) -> dict:
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city},IN&appid={API_KEY}&units=metric"
     async with httpx.AsyncClient() as client:
         try:
-            response = await client.get(url, headers=headers, timeout=30.0)
+            response = await client.get(url, timeout=20.0)
             response.raise_for_status()
             return response.json()
         except Exception:
             return None
 
-def format_alert(feature: dict) -> str:
-    """Format an alert feature into a readable string."""
-    props = feature["properties"]
-    return f"""
-    Event: {props.get('event', 'Unknown')}
-    Area: {props.get('areaDesc', 'Unknown')}
-    Severity: {props.get('severity', 'Unknown')}
-    Description: {props.get('description', 'No description available')}
-    Instructions: {props.get('instruction', 'No specific instructions provided')}
-    """
-
 @mcp.tool()
-async def get_alerts(state: str) -> str:
-    """Get weather alerts for a US state.
-
+async def get_weather(city: str) -> str:
+    """Get current weather for an Indian city.
     Args:
-        state: Two-letter US state code (e.g. CA, NY)
+        city: Name of the city (e.g. Delhi)
     """
-    url = f"{NWS_API_BASE}/alerts/active/area/{state}"
+    if city not in INDIAN_CITIES:
+        return f"City '{city}' is not supported. Choose from: {', '.join(INDIAN_CITIES)}"
+    data = await fetch_weather(city)
+    if not data or "main" not in data:
+        return "Unable to fetch weather data."
+    weather = data['weather'][0]['description'].title()
+    temp = data['main']['temp']
+    feels_like = data['main']['feels_like']
+    humidity = data['main']['humidity']
+    wind = data['wind']['speed']
+    return (
+        f"Weather in {city}:\n"
+        f"Temperature: {temp} °C\n"
+        f"Feels Like: {feels_like} °C\n"
+        f"Condition: {weather}\n"
+        f"Humidity: {humidity}%\n"
+        f"Wind Speed: {wind} m/s"
+    )
     data = await make_nws_request(url)
 
     if not data or "features" not in data:

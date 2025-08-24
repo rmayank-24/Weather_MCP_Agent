@@ -1,6 +1,6 @@
 {
-    "mcpServers":{
-        "weather": {
+  "mcpServers": {
+    "weather": {
       "command": "uv",
       "args": [
         "run",
@@ -8,8 +8,8 @@
         "mcp[cli]",
         "mcp",
         "run",
-        "E:\\mcpcourse\\mcpcrashcourse\\server\\weather.py"
+        "c:\\Users\\rathi\\Documents\\MCP-PROJECT\\server\\weather.py"
       ]
     }
-}
+  }
 }
